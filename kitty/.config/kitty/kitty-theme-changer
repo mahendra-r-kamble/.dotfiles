@@ -1,0 +1,8 @@
+#!/bin/bash
+
+path_to_theme="/.config/kitty/kitty-themes/themes/"$1
+
+if [[ $path_to_theme ]]
+then
+	ln -sf $HOME$path_to_theme $HOME/.config/kitty/theme.conf
+fi

@@ -6,6 +6,10 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+alias la='ls -al --color=auto'
+alias vim='nvim'
+
 PS1='[\u@\h \W]\$ '
 
 # load powerline
